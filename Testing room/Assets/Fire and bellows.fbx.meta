@@ -3,7 +3,42 @@ guid: b72d00bc874ad284f812528aa40d1167
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bellows_Nossel
+    second: {fileID: 2100000, guid: e75c70d050320934ca23179448cddf5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bellows_Wood
+    second: {fileID: 2100000, guid: 1966184b9505b9542a23aa9f12a537be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bellows_body
+    second: {fileID: 2100000, guid: 78d841585c34c94498b80d1fb496f136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Logs
+    second: {fileID: 2100000, guid: f758e875fe08fb747b1c86a06af0e2b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Wall
+    second: {fileID: 2100000, guid: e8e685b641a22de4e8e515b37b4603ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soot1
+    second: {fileID: 2100000, guid: d76992b93b0af214e83be938f8b59e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire_Stand
+    second: {fileID: 2100000, guid: ad56804ba036c72458afd45efd73b075, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
