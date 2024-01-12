@@ -2,7 +2,7 @@
 potions
 
 The Mood:
-Cozy fantasy. 
+Cozy fantasy!
 
 Assets needed:
  Ingredients; nightshade, luminous mushroom, dragonfly, rosewater. Val
