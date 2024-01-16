@@ -11,9 +11,9 @@ public class ObjectTracker : MonoBehaviour {
 
   void Update() {
 
-    float currentYPos = objectToTrack.position.y;
+    float currentYPos = objectToTrack.position.y - 32;
     
-    float yPosDiff = currentYPos - prevYPos;
+    float yPosDiff = (currentYPos - prevYPos);
 
     Vector3 rotAxis = Vector3.forward;
     objectToRotate.RotateAround(objectToRotate.position, rotAxis, yPosDiff);
