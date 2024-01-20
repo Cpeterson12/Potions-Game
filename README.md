@@ -14,3 +14,9 @@ Assets needed:
 - Dragonborn Hands Ven
 -Vial, Flask, Bottle models Ven
 -Vial Shelf Caden
+
+-ingredient So
+-potion So
+-So holder
+-So reader
+
