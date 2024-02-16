@@ -1,24 +1,24 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class TimerBehaviour : MonoBehaviour
 {
-    public UnityEvent countdownStart, onCountdownFinished;
+    public UnityEvent countdownStart, updateText, onCountdownFinished;
     public FloatData countdown;
-    private float timeRemaining;
-
-    public void BeginCountdown()
+    public float timeRemaining;
+    public void StartCountdown()
     {
         timeRemaining = countdown.data;
         StartCoroutine(RunTimer());
     }
 
-    IEnumerator RunTimer()
+    public IEnumerator RunTimer()
         {
             while (timeRemaining > 0)
             {
-
+                
                 timeRemaining -= Time.deltaTime;
 
                 if (timeRemaining <= 0)
