@@ -970,6 +970,7 @@ MonoBehaviour:
       m_Calls: []
   countdown: {fileID: 11400000, guid: e716c3958931753448f2128df0b01a39, type: 2}
   timeRemaining: 0
+  timerText: {fileID: 1456552701}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
