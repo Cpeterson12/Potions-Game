@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf54800b7c9edc40810e063b5389430, type: 3}
+  m_Name: New Recipe List
+  m_EditorClassIdentifier: 
+  recipes:
+  - ingredientRequirements:
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 1, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 1, g: 1, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0.007843138, b: 1, a: 0}
+  - ingredientRequirements:
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+  - ingredientRequirements:
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+  - ingredientRequirements:
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
+    - ingredient: {fileID: 11400000, guid: 9c92a939857a1dd4888ecd5493bafe03, type: 2}
+      requiredColor: {r: 0, g: 0, b: 0, a: 0}
