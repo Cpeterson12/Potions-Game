@@ -877,6 +877,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2119981919}
+        m_TargetAssemblyTypeName: InvisableTimerBehaviour, Assembly-CSharp
+        m_MethodName: StartCountdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2101265167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,6 +937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119981917}
   - component: {fileID: 2119981918}
+  - component: {fileID: 2119981919}
   m_Layer: 0
   m_Name: Game Object
   m_TagString: Untagged
@@ -971,6 +984,29 @@ MonoBehaviour:
   countdown: {fileID: 11400000, guid: e716c3958931753448f2128df0b01a39, type: 2}
   timeRemaining: 0
   timerText: {fileID: 1456552701}
+--- !u!114 &2119981919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119981916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50668833f42bdf7409ed3e6bccb2fb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownStart:
+    m_PersistentCalls:
+      m_Calls: []
+  updateText:
+    m_PersistentCalls:
+      m_Calls: []
+  onCountdownFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  countdown: {fileID: 11400000, guid: e716c3958931753448f2128df0b01a39, type: 2}
+  timeRemaining: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
