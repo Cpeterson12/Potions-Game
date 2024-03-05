@@ -11,6 +11,10 @@ public class RecipeList : ScriptableObject
 public class Recipe
 {
     public List<IngredientRequirement> ingredientRequirements;
+    public Recipe(List<IngredientRequirement> requirements)
+    {
+        ingredientRequirements = new List<IngredientRequirement>(requirements);
+    }
 }
 
 [System.Serializable]
@@ -18,4 +22,9 @@ public class IngredientRequirement
 {
     public IngredientSO ingredient;
     public Color requiredColor;
+    public IngredientRequirement(IngredientSO ingredient, Color requiredColor)
+    {
+        this.ingredient = ingredient;
+        this.requiredColor = requiredColor;
+    }
 }

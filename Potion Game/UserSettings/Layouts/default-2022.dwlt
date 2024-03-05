@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 48
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 49
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,8 +148,8 @@ MonoBehaviour:
     y: 0
     width: 443
     height: 622
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models
+    - Assets/Models/TestingModels
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -430,17 +430,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models
+  - Assets/Models/TestingModels
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\cpete\OneDrive\Documents\GitRepos\Potions-Game\Potion
+  m_LastProjectPath: C:\Users\vales\OneDrive\Escritorio\Documentos\GITKRAKEN2023\Potions-Game\Potion
     Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 48}
-    m_SelectedIDs: 387f0000
-    m_LastClickedID: 32568
-    m_ExpandedIDs: 000000001c7d0000367f0000487f000000ca9a3b
+    m_SelectedIDs: 6c980000
+    m_LastClickedID: 39020
+    m_ExpandedIDs: 000000006a7600002a7800002c7800003078000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,7 +468,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c7d0000
+    m_ExpandedIDs: 000000006a760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -610,23 +610,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 02b2ffff20f7ffff0afbffff2afbffff8476000094760000fe76000002770000b4a00000cea00000daa00000e4a00000f4a0000046a1000056a10000
+      m_ExpandedIDs: 60cbffff04ccffff82cdffff60d3ffff66daffff94e2ffffe0ebffff7eecffff9cf1ffffa8f6ffff54f7ffff72f8ffff10fbffff6e780000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ColorPot:Pot
+        m_OriginalName: ColorPot:Pot
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -12938
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -170.40002, y: -26.400024}
+      snapOffset: {x: -171, y: -26.400024}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -990,9 +990,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3515335, y: 1.8712351, z: 1.9183326}
+    m_Target: {x: 1.423603, y: 5.104, z: -2.1012988}
     speed: 2
-    m_Value: {x: -1.3515335, y: 1.8712351, z: 1.9183326}
+    m_Value: {x: 1.423603, y: 5.104, z: -2.1012988}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1038,13 +1038,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12565815, y: -0.10507039, z: 0.0127192885, w: -0.98662704}
+    m_Target: {x: -0.018936198, y: -0.945878, z: 0.05595999, w: -0.3192031}
     speed: 2
-    m_Value: {x: -0.12711097, y: -0.10502889, z: 0.01287428, w: -0.98622817}
+    m_Value: {x: -0.019019492, y: -0.94536704, z: 0.05592968, w: -0.32061103}
   m_Size:
-    m_Target: 1.2841778
+    m_Target: 11.346179
     speed: 2
-    m_Value: 1.2288783
+    m_Value: 10.857588
   m_Ortho:
     m_Target: 0
     speed: 2
