@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4f8f959d96c234383bdfe8742768dd, type: 3}
-  m_Name: Ingredient
+  m_Script: {fileID: 11500000, guid: 8ab56b0a6dd4b094c8ce2a6cf14e3fff, type: 3}
+  m_Name: Box
   m_EditorClassIdentifier: 
-  idNumber: 0
-  idName: 
-  idImage: {fileID: 0}
