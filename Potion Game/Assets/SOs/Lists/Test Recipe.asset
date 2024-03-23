@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c57e889ca6fa445ac246912c72a61f, type: 3}
-  m_Name: New ID List
+  m_Script: {fileID: 11500000, guid: ce23d2ec9407bfa469c6591e0d737220, type: 3}
+  m_Name: Test Recipe
   m_EditorClassIdentifier: 
-  idList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  list:
+  - {fileID: 11400000, guid: 54c90a5ecb7247144bc4f1f2aca27934, type: 2}
