@@ -11,4 +11,9 @@ public class IDManager : MonoBehaviour
         ID newIDData = idData;
         idList.list.Add(newIDData);
     }
+
+    public void ClearIDList()
+    {
+        idList.list.Clear();
+    }
 }

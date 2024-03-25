@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Test Recipe
   m_EditorClassIdentifier: 
   list:
-  - {fileID: 11400000, guid: 54c90a5ecb7247144bc4f1f2aca27934, type: 2}
+  - {fileID: 11400000, guid: 2edb778783128d846952c3455813b16f, type: 2}
+  - {fileID: 11400000, guid: 6972fca2063299748862c16c516dc5e5, type: 2}
