@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &677843163132004453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542539894270875852}
+  - component: {fileID: 4122058118993666918}
+  - component: {fileID: 5909785585345937433}
+  - component: {fileID: 3141898880470857892}
+  m_Layer: 0
+  m_Name: Red Color Pot GO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542539894270875852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677843163132004453}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.5270783, z: -0, w: 0.8498168}
+  m_LocalPosition: {x: -2.5902152, y: 1.788869, z: 0.05086267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 253923851540845675}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -63.617, z: 0}
+--- !u!114 &4122058118993666918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677843163132004453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf58a117f769404aa02a1370cec9c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 0, b: 0, a: 0}
+--- !u!54 &5909785585345937433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677843163132004453}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3141898880470857892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677843163132004453}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.31900752, y: 0.29008174, z: 0.30075336}
+  m_Center: {x: 0.007997334, y: 0.1525433, z: 0.02191925}
+--- !u!1001 &291791800441123712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1542539894270875852}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.0039997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.004001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.013791093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004137635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03645757
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.86204994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0021059292
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5067755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.006641345
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.178
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -60.899
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.778
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_Name
+      value: Color Pot
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+--- !u!4 &253923851540845675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+  m_PrefabInstance: {fileID: 291791800441123712}
+  m_PrefabAsset: {fileID: 0}
