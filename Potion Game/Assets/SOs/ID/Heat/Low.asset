@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce23d2ec9407bfa469c6591e0d737220, type: 3}
-  m_Name: Potion
+  m_Script: {fileID: 11500000, guid: 8ab56b0a6dd4b094c8ce2a6cf14e3fff, type: 3}
+  m_Name: Low
   m_EditorClassIdentifier: 
-  list: []

@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -11,6 +10,13 @@ public class HeatControlBehaviour : MonoBehaviour
     public float heatValue = 0; 
     public float maxHeatValue = 30;
     public Image heatImage;
+
+    public IDManager heatTrack;
+   
+    public ID currentHeatID;
+    public ID lowID;
+    public ID medID;
+    public ID highID;
     
     private float decreaseTimer = 0f;
     private float decreaseInterval = 1.5f;
@@ -32,7 +38,7 @@ public class HeatControlBehaviour : MonoBehaviour
 
         heatImage.fillAmount = fillAmount;
         UpdateParticleStartSize();
-        
+        CheckHeatLevel();
     }
 
     public void IncreaseHeat()
@@ -43,21 +49,21 @@ public class HeatControlBehaviour : MonoBehaviour
     
     public void CheckHeatLevel()
     {
-        string heatLevel;
         if (heatValue >= 1 && heatValue <= 10)
         {
-            heatLevel = "low";
+            currentHeatID = lowID;
         }
         else if (heatValue >= 11 && heatValue <= 20)
         {
-            heatLevel = "Med";
+            currentHeatID = medID;
         }
         else
         {
-            heatLevel = "High";
+            currentHeatID = highID;
         }
 
-        Debug.Log("Heat Level: " + heatLevel);
+        heatTrack.idData = currentHeatID;
+
     }
     private void UpdateParticleStartSize()
     {
