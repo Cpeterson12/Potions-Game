@@ -853,6 +853,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: e250783e63c93e745a6c8b895b3ca762, type: 2}
+--- !u!114 &309893546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309893538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf58a117f769404aa02a1370cec9c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  redMaterial: {fileID: 0}
+  yellowMaterial: {fileID: 0}
+  blueMaterial: {fileID: 0}
+  currentIngredientID: {fileID: 11400000, guid: 2edb778783128d846952c3455813b16f, type: 2}
+  redID: {fileID: 11400000, guid: dc20428796f3a884bbb0175730498a1f, type: 2}
+  yellowID: {fileID: 11400000, guid: ee9c5e13bcb7fc344b2ab1f615ed6677, type: 2}
+  blueID: {fileID: 11400000, guid: dc20428796f3a884bbb0175730498a1f, type: 2}
 --- !u!1 &396502323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4554941377726143898, guid: c06e8d47b16edea439a9da8af49667bc, type: 3}
@@ -1135,12 +1156,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 649766778}
-  - component: {fileID: 649766777}
   - component: {fileID: 649766776}
   - component: {fileID: 649766775}
   m_Layer: 0
   m_Name: Yellow Color Pot GO
-  m_TagString: Untagged
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1193,19 +1213,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &649766777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649766774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf58a117f769404aa02a1370cec9c43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 1, g: 0.9214484, b: 0, a: 0}
 --- !u!4 &649766778
 Transform:
   m_ObjectHideFlags: 0
@@ -1559,12 +1566,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779131079}
-  - component: {fileID: 779131078}
   - component: {fileID: 779131077}
   - component: {fileID: 779131076}
   m_Layer: 0
   m_Name: Red Color Pot GO
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1617,19 +1623,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &779131078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779131075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf58a117f769404aa02a1370cec9c43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 1, g: 0, b: 0, a: 0}
 --- !u!4 &779131079
 Transform:
   m_ObjectHideFlags: 0
@@ -8601,6 +8594,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1022088567}
     m_Modifications:
+    - target: {fileID: 2871854915827847850, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_ScaleToggleAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4592956391713993908, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_Name
       value: Complete XR Origin Set Up Variant
@@ -8934,6 +8931,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c06e8d47b16edea439a9da8af49667bc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 309893544}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c06e8d47b16edea439a9da8af49667bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 309893546}
   m_SourcePrefab: {fileID: 100100000, guid: c06e8d47b16edea439a9da8af49667bc, type: 3}
 --- !u!1001 &1746082801
 PrefabInstance:
@@ -9093,12 +9093,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797291583}
-  - component: {fileID: 1797291582}
   - component: {fileID: 1797291581}
   - component: {fileID: 1797291580}
   m_Layer: 0
   m_Name: 'Blue Color Pot GO '
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9151,19 +9150,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1797291582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797291579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf58a117f769404aa02a1370cec9c43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0, g: 0.08398199, b: 1, a: 0}
 --- !u!4 &1797291583
 Transform:
   m_ObjectHideFlags: 0

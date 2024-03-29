@@ -5,6 +5,7 @@ public class IDManager : MonoBehaviour
 {
     public IDList idList;
     public ID idData;
+    public static IDManager instance;
 
     public void AddIDToList()
     {
