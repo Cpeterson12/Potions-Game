@@ -9,7 +9,7 @@ public class IngredientSO : ScriptableObject
 
     public void ChangeColor(Color newColor)
     {
-        originalColor = newColor;
+        originalColor = newColor; 
         ColorChanged?.Invoke(newColor);
     }
 }
