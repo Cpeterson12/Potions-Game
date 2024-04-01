@@ -3,7 +3,22 @@ guid: c06e8d47b16edea439a9da8af49667bc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DragonflyModel_initialShadingGroup1
+    second: {fileID: 2100000, guid: 03b813a93f9043141a16056a453eac14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: f585976c5d76c634a8bf01cf049ba56a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 04feea6ecb37ca4499bf94d7e94b9081, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

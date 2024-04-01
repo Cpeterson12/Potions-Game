@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorChanger : MonoBehaviour
@@ -18,6 +16,9 @@ public class ColorChanger : MonoBehaviour
     public ID redID;
     public ID yellowID;
     public ID blueID;
+    public GameObject childIngredient;
+
+    public int matElement;
   
     void OnTriggerEnter(Collider other) 
     {
@@ -27,6 +28,7 @@ public class ColorChanger : MonoBehaviour
             ChangeColor(blueMaterial);
             IDBehavior.instance.UpdateID();
             currentMaterial = blueMaterial;
+            childIngredient.GetComponent<MeshRenderer>().materials[matElement] = currentMaterial;
         }
         else if (other.CompareTag("Red"))
         {
@@ -34,6 +36,7 @@ public class ColorChanger : MonoBehaviour
             ChangeColor(redMaterial);
             IDBehavior.instance.UpdateID();
             currentMaterial = redMaterial;
+            childIngredient.GetComponent<MeshRenderer>().materials[matElement] = currentMaterial;
         }
         else if (other.CompareTag("Yellow"))
         {
@@ -41,15 +44,12 @@ public class ColorChanger : MonoBehaviour
             ChangeColor(yellowMaterial);
             IDBehavior.instance.UpdateID();
             currentMaterial = yellowMaterial;
+            childIngredient.GetComponent<MeshRenderer>().materials[matElement] = currentMaterial;
         }
     }
     
     public void ChangeColor(Material material)
     {
-        Renderer renderer = GetComponent<Renderer>();
-        if (renderer != null)
-        {
-            renderer.material = material;
-        }
+        currentMaterial = material;
     }
 }
