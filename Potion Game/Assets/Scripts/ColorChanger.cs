@@ -1,55 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ColorChanger : MonoBehaviour
 {
-    public Material currentMaterial;
-    public Material defaultMaterial;
-    public Material redMaterial;
-    public Material yellowMaterial;
-    public Material blueMaterial;
-    
-    public static ColorChanger instance;
+    public UnityEvent onRed, onYellow, onBlue;
     
     private IDBehavior idBehavior;
     
-    public ID currentIngredientID;
-    public ID redID;
-    public ID yellowID;
-    public ID blueID;
-  
+    public ID currentIngredientID, redID, yellowID, blueID;
+    
     void OnTriggerEnter(Collider other) 
     {
         if (other.CompareTag("Blue"))
         {
             currentIngredientID = blueID;
-            ChangeColor(blueMaterial);
-            IDBehavior.instance.UpdateID();
-            currentMaterial = blueMaterial;
+            onBlue.Invoke();
         }
         else if (other.CompareTag("Red"))
         {
             currentIngredientID = redID;
-            ChangeColor(redMaterial);
-            IDBehavior.instance.UpdateID();
-            currentMaterial = redMaterial;
+            onRed.Invoke();
         }
         else if (other.CompareTag("Yellow"))
         {
             currentIngredientID = yellowID;
-            ChangeColor(yellowMaterial);
-            IDBehavior.instance.UpdateID();
-            currentMaterial = yellowMaterial;
-        }
-    }
-    
-    public void ChangeColor(Material material)
-    {
-        Renderer renderer = GetComponent<Renderer>();
-        if (renderer != null)
-        {
-            renderer.material = material;
+            onYellow.Invoke();
         }
     }
 }

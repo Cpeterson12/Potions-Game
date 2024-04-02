@@ -13,14 +13,12 @@ public class InstantisatePrefabBehaviour : XRGrabInteractable
     {
         base.OnSelectEntered(args);
         onGrab.Invoke();
-       
     }  
     
     protected override void OnSelectExiting(SelectExitEventArgs args)
     {
         base.OnSelectExiting(args);
         onRelease.Invoke();
-        
     }
 
 }
