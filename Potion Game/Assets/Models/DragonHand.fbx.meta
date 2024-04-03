@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a76546774d951b348924bea58b72427e
+guid: f8779652ae528a04c9424c02d6f2f4b4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -111,7 +111,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: Cuff_Jnt
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
