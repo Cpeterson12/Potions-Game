@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class IDBehavior : MonoBehaviour
 {
-    public static IDBehavior instance;
+    public static IDBehavior Instance;
     public ID idObj;
     
-    private ColorChanger colorChanger;
+    public ColorChanger colorChanger;
     
     public void UpdateID()
     {
