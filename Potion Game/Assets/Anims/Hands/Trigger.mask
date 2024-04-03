@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trigger
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Controls
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp/Finger_1_Jnt_1_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp/Finger_1_Jnt_1_Ctrl/Finger_1_Jnt_2_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp/Finger_1_Jnt_1_Ctrl/Finger_1_Jnt_2_Ctrl_Grp/Finger_1_Jnt_2_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp/Finger_1_Jnt_1_Ctrl/Finger_1_Jnt_2_Ctrl_Grp/Finger_1_Jnt_2_Ctrl/Finger_1_Jnt_3_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_1_Jnt_1_Ctrl_Grp/Finger_1_Jnt_1_Ctrl/Finger_1_Jnt_2_Ctrl_Grp/Finger_1_Jnt_2_Ctrl/Finger_1_Jnt_3_Ctrl_Grp/Finger_1_Jnt_3_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp/Finger_2_Jnt_1_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp/Finger_2_Jnt_1_Ctrl/Finger_2_Jnt_2_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp/Finger_2_Jnt_1_Ctrl/Finger_2_Jnt_2_Ctrl_Grp/Finger_2_Jnt_2_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp/Finger_2_Jnt_1_Ctrl/Finger_2_Jnt_2_Ctrl_Grp/Finger_2_Jnt_2_Ctrl/Finger_2_Jnt_3_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_2_Jnt_1_Ctrl_Grp/Finger_2_Jnt_1_Ctrl/Finger_2_Jnt_2_Ctrl_Grp/Finger_2_Jnt_2_Ctrl/Finger_2_Jnt_3_Ctrl_Grp/Finger_2_Jnt_3_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp/Finger_3_Jnt_1_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp/Finger_3_Jnt_1_Ctrl/Finger_3_Jnt_2_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp/Finger_3_Jnt_1_Ctrl/Finger_3_Jnt_2_Ctrl_Grp/Finger_3_Jnt_2_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp/Finger_3_Jnt_1_Ctrl/Finger_3_Jnt_2_Ctrl_Grp/Finger_3_Jnt_2_Ctrl/Finger_3_Jnt_3_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_3_Jnt_1_Ctrl_Grp/Finger_3_Jnt_1_Ctrl/Finger_3_Jnt_2_Ctrl_Grp/Finger_3_Jnt_2_Ctrl/Finger_3_Jnt_3_Ctrl_Grp/Finger_3_Jnt_3_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp/Finger_4_Jnt_1_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp/Finger_4_Jnt_1_Ctrl/Finger_4_Jnt_2_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp/Finger_4_Jnt_1_Ctrl/Finger_4_Jnt_2_Ctrl_Grp/Finger_4_Jnt_2_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp/Finger_4_Jnt_1_Ctrl/Finger_4_Jnt_2_Ctrl_Grp/Finger_4_Jnt_2_Ctrl/Finger_4_Jnt_3_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_4_Jnt_1_Ctrl_Grp/Finger_4_Jnt_1_Ctrl/Finger_4_Jnt_2_Ctrl_Grp/Finger_4_Jnt_2_Ctrl/Finger_4_Jnt_3_Ctrl_Grp/Finger_4_Jnt_3_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp/Finger_5_Jnt_1_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp/Finger_5_Jnt_1_Ctrl/Finger_5_Jnt_2_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp/Finger_5_Jnt_1_Ctrl/Finger_5_Jnt_2_Ctrl_Grp/Finger_5_Jnt_2_Ctrl
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp/Finger_5_Jnt_1_Ctrl/Finger_5_Jnt_2_Ctrl_Grp/Finger_5_Jnt_2_Ctrl/Finger_5_Jnt_3_Ctrl_Grp
+    m_Weight: 0
+  - m_Path: Controls/Cuff_Ctrl_Grp/Cuff_Ctrl/Wrist_Ctrl_Grp/Wrist_Ctrl/Finger_5_Jnt_1_Ctrl_Grp/Finger_5_Jnt_1_Ctrl/Finger_5_Jnt_2_Ctrl_Grp/Finger_5_Jnt_2_Ctrl/Finger_5_Jnt_3_Ctrl_Grp/Finger_5_Jnt_3_Ctrl
+    m_Weight: 0
+  - m_Path: Geo
+    m_Weight: 0
+  - m_Path: Geo/Buckle1
+    m_Weight: 0
+  - m_Path: Geo/Emblem
+    m_Weight: 0
+  - m_Path: Geo/Fingers
+    m_Weight: 0
+  - m_Path: Geo/Glove
+    m_Weight: 0
+  - m_Path: Skeleton
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_1_Jnt_1
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_1_Jnt_1/Finger_1_Jnt_2
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_1_Jnt_1/Finger_1_Jnt_2/Finger_1_Jnt_3
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_2_Jnt_1
+    m_Weight: 1
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_2_Jnt_1/Finger_2_Jnt_2
+    m_Weight: 1
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_2_Jnt_1/Finger_2_Jnt_2/Finger_2_Jnt_3
+    m_Weight: 1
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_3_Jnt_1
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_3_Jnt_1/Finger_3_Jnt_2
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_3_Jnt_1/Finger_3_Jnt_2/Finger_3_Jnt_3
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_4_Jnt_1
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_4_Jnt_1/Finger_4_Jnt_2
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_4_Jnt_1/Finger_4_Jnt_2/Finger_4_Jnt_3
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_5_Jnt_1
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_5_Jnt_1/Finger_5_Jnt_2
+    m_Weight: 0
+  - m_Path: Skeleton/Cuff_Jnt/Wrist_Jnt/Finger_5_Jnt_1/Finger_5_Jnt_2/Finger_5_Jnt_3
+    m_Weight: 0
