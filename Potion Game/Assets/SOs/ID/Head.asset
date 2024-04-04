@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b93ba550024c05b43826dd30349a6323, type: 3}
-  m_Name: LetGoTimer
+  m_Script: {fileID: 11500000, guid: 8ab56b0a6dd4b094c8ce2a6cf14e3fff, type: 3}
+  m_Name: Head
   m_EditorClassIdentifier: 
-  data: 3
