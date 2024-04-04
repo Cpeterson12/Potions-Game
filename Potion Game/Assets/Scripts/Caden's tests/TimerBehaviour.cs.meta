@@ -3,9 +3,7 @@ guid: 9627b387c5433d64e89bef398361fa45
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - countdown: {instanceID: 0}
-  - timerText: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
