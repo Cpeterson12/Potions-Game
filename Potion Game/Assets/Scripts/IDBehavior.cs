@@ -5,7 +5,7 @@ public class IDBehavior : MonoBehaviour
     public static IDBehavior Instance;
     public ID idObj;
     
-    public ColorChanger colorChanger;
+    private ColorChanger colorChanger;
     
     public void UpdateID()
     {

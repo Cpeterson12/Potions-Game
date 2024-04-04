@@ -6,6 +6,7 @@ public class IDManager : MonoBehaviour
     public IDList idList;
     public ID idData;
     public static IDManager instance;
+    public ColorChanger colorChanger;
 
     public void AddIDToList()
     {
@@ -16,5 +17,10 @@ public class IDManager : MonoBehaviour
     public void ClearIDList()
     {
         idList.list.Clear();
+    }
+    
+    public void UpdateIDColor()
+    {
+        idData = colorChanger.currentIngredientID;
     }
 }
