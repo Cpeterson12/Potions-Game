@@ -3,11 +3,11 @@ using UnityEngine.Events;
 
 public class ColorChanger : MonoBehaviour
 {
-    public UnityEvent onRed, onYellow, onBlue;
+    public UnityEvent onRed, onYellow, onBlue, onReset;
     
     private IDBehavior idBehavior;
     
-    public ID currentIngredientID, redID, yellowID, blueID;
+    public ID currentIngredientID, redID, yellowID, blueID, defaultID;
     
     void OnTriggerEnter(Collider other) 
     {
@@ -26,5 +26,15 @@ public class ColorChanger : MonoBehaviour
             currentIngredientID = yellowID;
             onYellow.Invoke();
         }
+        else if (other.CompareTag("Cauldron") || other.CompareTag("Trash") || other.CompareTag("IngredientBase"))
+        {
+            Invoke("ResetColor", 1f);
+        }
+    }
+    
+    public void ResetColor()
+    {
+        currentIngredientID = defaultID;
+        onReset.Invoke();
     }
 }

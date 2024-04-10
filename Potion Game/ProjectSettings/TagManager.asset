@@ -7,6 +7,9 @@ TagManager:
   - Blue
   - Yellow
   - Red
+  - Cauldron
+  - Trash
+  - IngredientBase
   layers:
   - Default
   - TransparentFX
