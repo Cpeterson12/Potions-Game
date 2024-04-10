@@ -1,11 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class IDListCompareBehaviour : MonoBehaviour
 {
     public IDList list1;
     public IDList list2;
+
+    public IDListBehaviour recipes;
+
+    public UnityEvent matchCorrectEvent, matchIncorrectEvent;
+
+    public void Update()
+    {
+        list2 = recipes.listObj;
+    }
 
     public void StartCheck()
     {
@@ -58,12 +69,14 @@ public class IDListCompareBehaviour : MonoBehaviour
     private void ListsEqual()
     {
         Debug.Log("The lists are equal!");
+        matchCorrectEvent.Invoke();
        
     }
 
     private void ListsNotEqual()
     {
         Debug.Log("The lists are not equal!");
+        matchIncorrectEvent.Invoke();
         
     }
 }

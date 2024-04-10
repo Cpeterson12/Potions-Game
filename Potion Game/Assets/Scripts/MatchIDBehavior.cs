@@ -33,6 +33,12 @@ public class MatchIDBehavior : IDBehavior
             if (_otherIdObj != obj.id) continue;
             noMatch = false;
             obj.triggerEvent.Invoke();
+            float cooldownTimer = 1f;
+            while (cooldownTimer > 0f)
+            {
+                cooldownTimer -= Time.fixedDeltaTime;
+                yield return _wffu;
+            }
             yield return _wffu;
         }
         if (noMatch) 

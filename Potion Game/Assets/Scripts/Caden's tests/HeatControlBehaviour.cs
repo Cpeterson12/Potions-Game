@@ -49,7 +49,7 @@ public class HeatControlBehaviour : MonoBehaviour
     
     public void CheckHeatLevel()
     {
-        if (heatValue >= 1 && heatValue <= 10)
+        if (heatValue >= 0 && heatValue <= 10)
         {
             currentHeatID = lowID;
         }
