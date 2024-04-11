@@ -8,7 +8,8 @@ public class TimerBehaviour : MonoBehaviour
 {
     public UnityEvent countdownStart, updateText, onCountdownFinished;
     public FloatData countdown;
-    public float timeRemaining;
+    public float timeRemaining { get; private set; }
+
     
     public TMP_Text timerText;
 
