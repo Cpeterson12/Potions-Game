@@ -1,15 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AddPointsBasedTimer : MonoBehaviour
 {
-    public FloatData timer;
+    public TimerBehaviour timerBehaviour;
     public IntData score;
-    
+
     public void AddPoints()
     {
-        int pointsToAdd = Mathf.FloorToInt(timer.data);
+        float remainingTime = timerBehaviour.timeRemaining;
+        int pointsToAdd = Mathf.FloorToInt(remainingTime);
+        
         score.data += pointsToAdd;
     }
 }

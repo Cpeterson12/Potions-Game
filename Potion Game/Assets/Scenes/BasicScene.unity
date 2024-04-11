@@ -748,7 +748,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!114 &82834211
 MonoBehaviour:
@@ -1288,7 +1287,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!114 &177201222
 MonoBehaviour:
@@ -2942,7 +2940,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!1 &354429371
 GameObject:
@@ -4564,6 +4561,26 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 559590471}
   m_SourcePrefab: {fileID: 100100000, guid: c401828d0f07e14458b1845e6480837c, type: 3}
+--- !u!1 &579642746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3358405813395638677, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+  m_PrefabInstance: {fileID: 840841377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &579642750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579642746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c1bd16acb6a0848a05da1663a9e840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxWobble: 0.03
+  WobbleSpeed: 1
+  Recovery: 1
 --- !u!1 &600058222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,7 +4693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 051c8ae10eb97d34c9c2cdba66422512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 11400000, guid: 7ce935326a34eb0409fb1356988f7a9d, type: 2}
+  timerBehaviour: {fileID: 1149989351}
   score: {fileID: 11400000, guid: 7f13263b9379f7d4fbcb570f0bf52063, type: 2}
 --- !u!4 &600702012
 Transform:
@@ -5359,7 +5376,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!114 &604655303
 MonoBehaviour:
@@ -6184,12 +6200,36 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1149989351}
-        m_TargetAssemblyTypeName: TimerBehaviour, Assembly-CSharp
-        m_MethodName: StartCountdown
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 600702011}
+        m_TargetAssemblyTypeName: AddPointsBasedTimer, Assembly-CSharp
+        m_MethodName: AddPoints
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 612183071}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7f13263b9379f7d4fbcb570f0bf52063, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7844,6 +7884,102 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.009989441, y: 0.010000018, z: 0.010000007}
   m_Center: {x: 0.0000011334197, y: 0.0000000030272043, z: -0.0000000067520682}
+--- !u!1001 &840841377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 21.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 21.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 21.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.017
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99102235
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6314562686666201287, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4835573270324126842, guid: 36c774e24ae14c84380916cc21eaebb6, type: 3}
+    - target: {fileID: -6314562686666201287, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 34a82aa9a8d6c54478f7e553ca6a3d94, type: 2}
+    - target: {fileID: -5054088762266172233, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29e390e03074f184aba508732b4c6628, type: 2}
+    - target: {fileID: -425565630206218756, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e35af59f022eccf45bd2a894be471e8a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_Name
+      value: RosewaterFixed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358405813395638677, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009476212775683752, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3358405813395638677, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 579642750}
+  m_SourcePrefab: {fileID: 100100000, guid: 2fad41281f0ba7c4e82d3f1242a800be, type: 3}
 --- !u!1001 &843938577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13168,7 +13304,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!1001 &920427768
 PrefabInstance:
@@ -15247,7 +15382,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!114 &1111175467
 MonoBehaviour:
@@ -15695,8 +15829,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 612183071}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7f13263b9379f7d4fbcb570f0bf52063, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   countdown: {fileID: 11400000, guid: 7ce935326a34eb0409fb1356988f7a9d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 1109471093}
 --- !u!4 &1149989352
 Transform:
@@ -15776,7 +15921,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   countdown: {fileID: 11400000, guid: ea41a0b3b0a000644a06a63b833a757d, type: 2}
-  timeRemaining: 0
   timerText: {fileID: 354429373}
 --- !u!114 &1171349997
 MonoBehaviour:
@@ -27162,3 +27306,4 @@ SceneRoots:
   - {fileID: 1471909845}
   - {fileID: 1149989352}
   - {fileID: 600702012}
+  - {fileID: 840841377}
