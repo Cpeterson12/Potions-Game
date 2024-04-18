@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.015836889, g: 0.029647237, b: 0.12708502, a: 1}
+  m_IndirectSpecularColor: {r: 0.01596314, g: 0.029436985, b: 0.12660412, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -486,6 +486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 3207e76b370661c4a9c9757b30904f97, type: 2}
+  rotationData: {fileID: 11400000, guid: 8b4bec63d01b4dc409aff7281c71daf1, type: 2}
 --- !u!114 &82834205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,7 +730,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82834202}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -939,7 +940,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1014,7 +1015,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1089,7 +1090,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1567,6 +1568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 258b0af2a2082954f8c083a362098807, type: 2}
+  rotationData: {fileID: 11400000, guid: b33819a612ef48a4485638c1f5326bd5, type: 2}
 --- !u!114 &177201223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,7 +1812,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177201220}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 6
   m_Drag: 4
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5839,6 +5841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 6cfe97fc8547fe044a677a02a7810943, type: 2}
+  rotationData: {fileID: 11400000, guid: a8a69a6323331a545a86c1553b620653, type: 2}
 --- !u!114 &604655296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6082,8 +6085,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604655293}
   serializedVersion: 4
-  m_Mass: 3
-  m_Drag: 4.02
+  m_Mass: 6
+  m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -6297,7 +6300,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -6372,7 +6375,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -6447,7 +6450,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -8197,7 +8200,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 68
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -14563,7 +14566,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899691434}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 6
   m_Drag: 4
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -14614,8 +14617,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0339074, y: 0.06700803, z: 0.036913544}
-  m_Center: {x: 0.00039658658, y: 0.033385105, z: 0.0012426378}
+  m_Size: {x: 0.040139318, y: 0.06700803, z: 0.041966006}
+  m_Center: {x: 0.00053777825, y: 0.033385105, z: 0.00033039539}
 --- !u!114 &899691440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14629,6 +14632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 85da1b743e8e40b4da05e27cc2a5af24, type: 2}
+  rotationData: {fileID: 11400000, guid: b33819a612ef48a4485638c1f5326bd5, type: 2}
 --- !u!114 &899691441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17235,7 +17239,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111175458}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17267,6 +17271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 3f091d8724edf2c459e614e5b0c32ebd, type: 2}
+  rotationData: {fileID: 11400000, guid: 823fece4e28126d44ab5ac13c10c58db, type: 2}
 --- !u!114 &1111175465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17452,7 +17457,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -17527,7 +17532,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -17602,7 +17607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4504004329108747125, guid: 2029def7f0bf9b54a83def5f56f2f45b, type: 3}
+      - m_Target: {fileID: 820370251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -18101,6 +18106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: ce55e27ec3de0ef47824de09a5503bed, type: 2}
+  rotationData: {fileID: 11400000, guid: b33819a612ef48a4485638c1f5326bd5, type: 2}
 --- !u!114 &1171349998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18356,8 +18362,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843938578}
   serializedVersion: 4
-  m_Mass: 3
-  m_Drag: 4
+  m_Mass: 6
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -18394,8 +18400,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.015423987, y: 0.062182624, z: 0.01688923}
-  m_Center: {x: 0.0003272252, y: 0.033035126, z: -0.0022058014}
+  m_Size: {x: 0.033333756, y: 0.062182624, z: 0.0341172}
+  m_Center: {x: 0.0011767399, y: 0.033035126, z: -0.0012896239}
 --- !u!1001 &1172307857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18545,6 +18551,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3375907667158700656, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276229567452098345, guid: e12a14e286985ce478f787a00bee2c2a, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19405,7 +19415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.8, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263331771
@@ -26268,7 +26278,7 @@ RectTransform:
   m_GameObject: {fileID: 1511249169}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.96379, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 411599876}
@@ -30755,6 +30765,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 40.53
       objectReference: {fileID: 0}
+    - target: {fileID: 4321100816409602437, guid: 52857c2442bf47a458e539b8623e8a81, type: 3}
+      propertyPath: rotationData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7304a4a09bd7776468d6e7ba26eb9668, type: 2}
     - target: {fileID: 5520384632142624800, guid: 52857c2442bf47a458e539b8623e8a81, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -30769,7 +30783,7 @@ PrefabInstance:
       objectReference: {fileID: 309893546}
     - target: {fileID: 6023172874365423599, guid: 52857c2442bf47a458e539b8623e8a81, type: 3}
       propertyPath: m_Mass
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6665565784998173588, guid: 52857c2442bf47a458e539b8623e8a81, type: 3}
       propertyPath: m_IsActive

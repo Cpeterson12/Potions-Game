@@ -22,6 +22,8 @@ public class MatchIDBehavior : IDBehavior
         if (idBehavior == null) return;
         _otherIdObj = idBehavior.idObj;
         StartCoroutine(CheckId(_otherIdObj, triggerEnterMatches));
+       
+       
     }
 
     private IEnumerator CheckId(ID nameId, List<PossibleMatch> possibleMatches)

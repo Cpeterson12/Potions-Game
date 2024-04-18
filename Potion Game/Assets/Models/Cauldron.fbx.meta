@@ -3,7 +3,17 @@ guid: 994aeaeeff7350f4cba8c8a5893304e6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CauldronForSubstance_blinn1SG1
+    second: {fileID: 2100000, guid: 42c176534036aca499c6f8dbdd2036bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CauldronForSubstance_blinn1SG3
+    second: {fileID: 2100000, guid: f61e48907bd66c34888d02fbcf346bc1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

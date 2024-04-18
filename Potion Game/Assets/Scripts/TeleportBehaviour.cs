@@ -5,6 +5,7 @@ using UnityEngine;
 public class TeleportBehaviour : MonoBehaviour
 {
     public Vector3Data vectorData;
+    public Vector3Data rotationData;
 
     public void TeleportToVector()
     {
@@ -13,5 +14,8 @@ public class TeleportBehaviour : MonoBehaviour
 
         // Teleport the game object to the target position
         transform.position = targetPosition;
+        
+        Vector3 targetRotation = rotationData.value;
+        transform.rotation = Quaternion.Euler(targetRotation);
     }
 }
