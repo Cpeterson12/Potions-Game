@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.015836889, g: 0.029647237, b: 0.12708502, a: 1}
+  m_IndirectSpecularColor: {r: 0.01596314, g: 0.029436985, b: 0.12660412, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 43b8b884e74da1d40a039dd84d7e3db5, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 72a0d6acae338c9469cc99d7e72369a7, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 3224b8faef8cbc44081dd030c6640cb5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -595,6 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 3207e76b370661c4a9c9757b30904f97, type: 2}
+  rotationData: {fileID: 11400000, guid: 8b4bec63d01b4dc409aff7281c71daf1, type: 2}
 --- !u!114 &82834205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2473,6 +2474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 258b0af2a2082954f8c083a362098807, type: 2}
+  rotationData: {fileID: 0}
 --- !u!114 &177201223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10348,6 +10350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 6cfe97fc8547fe044a677a02a7810943, type: 2}
+  rotationData: {fileID: 0}
 --- !u!114 &604655296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14059,6 +14062,7 @@ GameObject:
   - component: {fileID: 820370255}
   - component: {fileID: 820370257}
   - component: {fileID: 820370256}
+  - component: {fileID: 820370258}
   m_Layer: 0
   m_Name: Sound OBJ
   m_TagString: Untagged
@@ -14960,6 +14964,102 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &820370258
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820370245}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 48216834411e733409b7ea567a9bd7a2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.227
+  m_Pitch: 1
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -20591,6 +20691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 85da1b743e8e40b4da05e27cc2a5af24, type: 2}
+  rotationData: {fileID: 0}
 --- !u!114 &899691441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24487,6 +24588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: 3f091d8724edf2c459e614e5b0c32ebd, type: 2}
+  rotationData: {fileID: 0}
 --- !u!114 &1111175465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25676,6 +25778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vectorData: {fileID: 11400000, guid: ce55e27ec3de0ef47824de09a5503bed, type: 2}
+  rotationData: {fileID: 0}
 --- !u!114 &1171349998
 MonoBehaviour:
   m_ObjectHideFlags: 0
